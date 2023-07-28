@@ -51,3 +51,4 @@ It processes data from a CSV file based on the specified timestamp and performs 
 3. Once the flask app is running, following are the two end points:
   - `http://127.0.0.1:5000/health - GET`
   - `http://127.0.0.1:5000/getData - POST`
+4. An export of postman collection is included in the project for easy set up
