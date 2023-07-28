@@ -1,4 +1,4 @@
-Task: 
+Here's the task record from our chat: 
 
 - Build couple of end points in python. 
 - Use flask, django to expose end points
@@ -9,15 +9,5 @@ Task:
         - tests records: how many tests were performed yesterday, etc.
         - Request: will have date. Protocol: POST
         response: 
-            { "success": true, 
-                "tests": [{ "test_id": "", "number_of_cells": "", "test_result": ""}]}
+            { "success", "tests": [{ "test_id": "", "number_of_cells": "", "test_result": ""}]}
 
-
-Additional: 
-    - Has context menu. 
-
-
-
-Once the flask app is running, following are the two end points 
-http://127.0.0.1:5000/health - GET
-http://127.0.0.1:5000/getData - POST

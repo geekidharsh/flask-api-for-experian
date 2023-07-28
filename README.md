@@ -47,3 +47,7 @@ It processes data from a CSV file based on the specified timestamp and performs 
 
 2. Run the API: To start the API server, run the following command in the terminal:
 `python api-server.py`
+
+3. Once the flask app is running, following are the two end points 
+`http://127.0.0.1:5000/health - GET`
+`http://127.0.0.1:5000/getData - POST`
