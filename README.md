@@ -27,6 +27,8 @@ It processes data from a CSV file based on the specified timestamp and performs 
 - **Request Payload**:
   - Content: JSON object containing the following key:
     - `timestamp`: A string in the format `"MM-DD-YYYY"`
+    - Sample:
+    -   `{"timestamp": "07-02-2023"}`
 - **Response**:
   - If the data structure is valid and the timestamp is correct, the API responds with a success message and the processed data.
     - Status: `200 OK`
